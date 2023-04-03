@@ -1,8 +1,13 @@
 # bilelsalem
-السلام عليكم و رحمة الله و بركاته 
+                                                                                                                                          السلام عليكم و رحمة الله و بركاته 
+
+
 my name is Bilel Salem .
+
 I'm a full stack developer .
+
 I'm currently working as a backend developer .
+
 Skills :
 ![45_sequelize 7e233926cd](https://user-images.githubusercontent.com/70206023/229418238-9846b6ad-1aa6-468e-bda5-4093f90d63dc.jpg)
 ![20165699](https://user-images.githubusercontent.com/70206023/229418259-64c0cd04-86f4-4fb4-a6a4-f3b0a4008e8c.png)
