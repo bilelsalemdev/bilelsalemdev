@@ -9,7 +9,8 @@ I'm a full stack developer .
 I'm currently working as a backend developer .
 
 Skills :
-
+![45_sequelize 7e233926cd](https://user-images.githubusercontent.com/70206023/229418238-9846b6ad-1aa6-468e-bda5-4093f90d63dc.jpg)
+![20165699](https://user-images.githubusercontent.com/70206023/229418259-64c0cd04-86f4-4fb4-a6a4-f3b0a4008e8c.png)
 ![icons8-mongoose-48](https://user-images.githubusercontent.com/70206023/229418265-92067f40-bab4-437a-acfe-e0bbb20d6b3e.png)
 ![icons8-logo-de-mysql-48](https://user-images.githubusercontent.com/70206023/229418272-f8606ef2-7fc1-4e22-9199-a6a79cd0640a.png)
 ![icons8-mongoose-48](https://user-images.githubusercontent.com/70206023/229418328-5cbad1b2-de96-45c0-a2cd-fd7be2d14e2f.png)
@@ -19,7 +20,7 @@ Skills :
 ![icons8-tailwindcss-48](https://user-images.githubusercontent.com/70206023/229418434-793cff41-c6fb-4cda-af66-081a3a10bf82.png)
 ![icons8-nestjs-48](https://user-images.githubusercontent.com/70206023/229418443-be5170c4-51cc-4457-bc9e-1d048c092f24.png)
 ![icons8-redux-48](https://user-images.githubusercontent.com/70206023/229418455-b21ed088-7b53-4324-915e-751b60f6fe09.png)
-![icons8-réagir-100](https://user-images.githubusercontent.com/70206023/229418467-d0bba273-16de-482f-bfbd-31ec47a49fe1.png)
+![icons8-react-a-javascript-library-for-building-user-interfaces-24](https://user-images.githubusercontent.com/70206023/229418993-8b805090-7531-4d32-86ac-369dc937e806.png)
 ![icons8-node-js-48](https://user-images.githubusercontent.com/70206023/229418476-5f7c0f02-2c8c-418f-bd4e-dfa550a507fe.png)
 ![icons8-javascript-48](https://user-images.githubusercontent.com/70206023/229418487-0c6c6206-4b8f-4f19-92c8-378d8e046ac4.png)
 ![icons8-html-5-48](https://user-images.githubusercontent.com/70206023/229418500-7f19e7db-d8e6-4c52-a1b8-6a30f748281b.png)
