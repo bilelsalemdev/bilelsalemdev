@@ -11,7 +11,7 @@ I'm currently working as a backend developer .
 Skills :
 
 
-![icons8-logo-de-mysql-48](https://user-images.githubusercontent.com/70206023/229418272-f8606ef2-7fc1-4e22-9199-a6a79cd0640a.png)
+
 ![icons8-mongoose-48](https://user-images.githubusercontent.com/70206023/229418328-5cbad1b2-de96-45c0-a2cd-fd7be2d14e2f.png)
 ![icons8-logo-de-mysql-48](https://user-images.githubusercontent.com/70206023/229418336-71121cf3-a449-42c7-ae3c-f6d3aca6e379.png)
 ![icons8-mongodb-a-cross-platform-document-oriented-database-program-24](https://user-images.githubusercontent.com/70206023/229418341-c3bd12a4-ec60-4127-a54e-daf7bcfa6c06.png)
