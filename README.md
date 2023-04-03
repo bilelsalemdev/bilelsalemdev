@@ -9,8 +9,7 @@ I'm a full stack developer .
 I'm currently working as a backend developer .
 
 Skills :
-![45_sequelize 7e233926cd](https://user-images.githubusercontent.com/70206023/229418238-9846b6ad-1aa6-468e-bda5-4093f90d63dc.jpg)
-![20165699](https://user-images.githubusercontent.com/70206023/229418259-64c0cd04-86f4-4fb4-a6a4-f3b0a4008e8c.png)
+
 ![icons8-mongoose-48](https://user-images.githubusercontent.com/70206023/229418265-92067f40-bab4-437a-acfe-e0bbb20d6b3e.png)
 ![icons8-logo-de-mysql-48](https://user-images.githubusercontent.com/70206023/229418272-f8606ef2-7fc1-4e22-9199-a6a79cd0640a.png)
 ![icons8-mongoose-48](https://user-images.githubusercontent.com/70206023/229418328-5cbad1b2-de96-45c0-a2cd-fd7be2d14e2f.png)
