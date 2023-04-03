@@ -2,7 +2,7 @@
  
 
 
-my name is Bilel Salem .
+My name is Bilel Salem .
 
 I'm a full stack developer .
 
