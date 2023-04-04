@@ -25,5 +25,3 @@ Skills :
 ![icons8-html-5-48](https://user-images.githubusercontent.com/70206023/229418500-7f19e7db-d8e6-4c52-a1b8-6a30f748281b.png)
 ![icons8-css3-48](https://user-images.githubusercontent.com/70206023/229418516-31d786bd-bac2-4ef8-9327-c966eedb7372.png)
 
-
-<a href="https://app.daily.dev/bilelsalem"><img src="https://github.com/bilelsalem2020/bilelsalem/blob/main/devcard.svg" width="400" alt="BILEL SALEM's Dev Card"/></a>
