@@ -27,3 +27,9 @@ Skills :
 
 
 [![Check out bilelsalem2020's profile on stardev.io](https://stardev.io/developers/bilelsalem2020/badge/languages/global.svg)](https://stardev.io/developers/bilelsalem2020)
+
+
+[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=bilelsalem2020&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/alibeddi/github-readme-stats#gh-dark-mode-only)
+[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=bilelsalem2020&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/alibeddi/github-readme-stats#gh-light-mode-only)
+ 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bilelsalem2020&layout=compact)
