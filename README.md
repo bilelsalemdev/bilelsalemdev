@@ -10,7 +10,7 @@
 
 - 👨‍💻 All of my projects are available at [https://bilelsalem.me/](https://bilelsalem.me/)
 
-- 📝 I regularly write articles on [https://medium.com/@bilelsalemdev, https://dev.to/bilelsalemdev](https://medium.com/@bilelsalemdev, https://dev.to/bilelsalemdev)
+- 📝 I regularly write articles on [https://medium.com/@bilelsalemdev](https://medium.com/@bilelsalemdev), [https://dev.to/bilelsalemdev](https://dev.to/bilelsalemdev)
 
 - 💬 Ask me about **react, nextjs, vuejs, nodejs, , expressjs, nestjs,**
 
