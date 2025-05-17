@@ -6,17 +6,13 @@
 
 - 🔭 I’m currently working on **task management tool**
 
-- 🌱 I’m currently learning **test in nestjs**
+- 🌱 I’m currently preparing for the  **Associate Data Engineer In SQL Certificate**
 
 - 📝 I regularly write articles on [https://medium.com/@bilelsalemdev](https://medium.com/@bilelsalemdev), [https://dev.to/bilelsalemdev](https://dev.to/bilelsalemdev)
 
-- 💬 Ask me about **react, nextjs, vuejs, nodejs, expressjs, nestjs,**
+- 💬 Ask me about **react, nextjs, nodejs, expressjs, nestjs, python, data engineering**
 
 - 📫 How to reach me **bilelsalemdev@gmail.com**
-
-- 📄 Know about my experiences [https://bilelsalem.me/](https://bilelsalem.me/)
-
-- ⚡ Fun fact **I m currently reading react interview guide**
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
