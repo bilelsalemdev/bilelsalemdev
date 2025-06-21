@@ -14,7 +14,7 @@
 
 - 📫 How to reach me **bilelsalemdev@gmail.com**
 
-### Blogs posts
+### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
