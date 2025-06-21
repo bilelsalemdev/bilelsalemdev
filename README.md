@@ -14,6 +14,16 @@
 
 - 📫 How to reach me **bilelsalemdev@gmail.com**
 
+---
+
+### 📈 Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bilelsalemdev&bg_color=1a1b27&color=9f9f9f&line=4c8eda&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" />
+</p>
+
+---
+
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
