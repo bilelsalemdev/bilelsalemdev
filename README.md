@@ -29,6 +29,42 @@
 
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Understanding)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/the)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Adapter)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Design)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Pattern:)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Bridging)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Incompatible)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Interfaces.md)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Understanding)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/the)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Factory)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Method)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Design)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Pattern.md)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Understanding)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/the)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Prototype)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Pattern.md)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Understanding)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/the)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Singleton)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Pattern)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/in)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/TypeScript.md)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Why)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/You)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Should)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Inject)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Interfaces,)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Not)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Classes,)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/in)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/NestJS)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Applications)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/?.md)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
