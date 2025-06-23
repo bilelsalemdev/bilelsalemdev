@@ -47,9 +47,6 @@
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/NestJS)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Applications)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/?.md)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Navigating)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/React)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/State.md)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/NestJS)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/vs)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Express.js:)
@@ -65,6 +62,14 @@
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Client)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Components)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Explained.md)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/React)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/19:)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/The)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Future)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/of)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/User)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Interface)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Development.md)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
