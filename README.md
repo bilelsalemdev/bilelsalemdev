@@ -57,10 +57,16 @@
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/NestJS)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Applications)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/?.md)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Javascript)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/behind)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/the)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/scenes.md)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Mastering)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/React:)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/A)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Deep)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Dive)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/into)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Memoization)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/and)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Component)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Optimization.md)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
