@@ -32,14 +32,6 @@
 
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Understanding)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/the)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Adapter)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Design)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Pattern:)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Bridging)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Incompatible)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Interfaces.md)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Understanding)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/the)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Factory)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Method)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Design)
@@ -65,6 +57,10 @@
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/NestJS)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Applications)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/?.md)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Javascript)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/behind)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/the)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/scenes.md)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
