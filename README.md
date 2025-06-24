@@ -30,12 +30,6 @@
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
 
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Revolutionizing)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Development)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/with)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Type-Safe)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Dropbox)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/SDK.md)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Solving)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Real)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Deployment)
@@ -66,6 +60,12 @@
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Bridging)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Incompatible)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Interfaces.md)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Understanding)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/the)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Factory)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Method)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Design)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Pattern.md)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
