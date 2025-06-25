@@ -30,6 +30,13 @@
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
 
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/TypeScript)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Interfaces:)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Crafting)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Code)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/with)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Creative)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Precision.md)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Understanding)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/the)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Adapter)
@@ -54,17 +61,6 @@
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Pattern)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/in)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/TypeScript.md)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Why)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/You)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Should)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Inject)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Interfaces,)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Not)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Classes,)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/in)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/NestJS)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Applications)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/?.md)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
