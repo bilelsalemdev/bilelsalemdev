@@ -30,6 +30,13 @@
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
 
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/React:)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Deep)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Dive)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/into)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Component)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Enhancement)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Techniques.md)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Revolutionizing)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Development)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/with)
@@ -58,14 +65,6 @@
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/with)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Creative)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Precision.md)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Understanding)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/the)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Adapter)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Design)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Pattern:)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Bridging)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Incompatible)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Interfaces.md)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
