@@ -29,15 +29,6 @@
 
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
-
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/React)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/19:)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/The)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Future)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/of)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/User)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Interface)
-- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Development.md)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/React:)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Deep)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Dive)
@@ -66,6 +57,14 @@
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Pattern)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/in)
 - [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/TypeScript.md)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/TypeScript)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Interfaces:)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Crafting)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Code)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/with)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Creative)
+- [](https://github.com/bilelsalemdev/one-hundred-articles/blob/main/Precision.md)
+
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
