@@ -2,7 +2,7 @@ name: 📝 Update Blog Posts from One-Hundred-Articles
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs hourly
+    - cron: '0 * * * *'  # Every hour
   workflow_dispatch:
 
 permissions:
@@ -31,14 +31,19 @@ jobs:
 
           markdown=""
           for file in $files; do
-            title=$(head -n 1 "$file" | sed 's/^# //')
+            # Extract title from first line starting with #
+            title=$(grep -m 1 '^# ' "$file" | sed 's/^# //')
+            # Fallback to filename (without .md) if no title found
+            if [ -z "$title" ]; then
+              title=$(basename "$file" .md)
+            fi
             link="https://github.com/bilelsalemdev/one-hundred-articles/blob/main/$file"
             markdown="${markdown}- [${title}](${link})\\n"
           done
 
           cd ..
 
-          # Prepare new README content
+          # Update README.md between markers
           awk -v content="$markdown" '
             BEGIN { print_block=1 }
             {
