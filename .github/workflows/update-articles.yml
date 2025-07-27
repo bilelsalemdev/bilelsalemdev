@@ -26,7 +26,7 @@ jobs:
         run: |
           cd articles
 
-          # Get latest 6 markdown files
+          # Get latest 6 .md files
           readarray -d '' files < <(
             find . -maxdepth 1 -name "*.md" -print0 | \
             xargs -0 stat --format '%Y %n' | \
@@ -45,13 +45,17 @@ jobs:
             encoded_link=$(jq -rn --arg x "$clean_name" '$x|@uri')
             link="https://github.com/bilelsalemdev/one-hundred-articles/blob/main/$encoded_link"
 
-            # Extract short 1-line preview
+            # Extract first non-empty non-title line
             preview=$(grep -vE '^\s*$|^#' "$file" | head -n 1 | tr -d '\r' | tr '\n' ' ')
-            preview=$(echo "$preview" | cut -c1-100)
+
+            # Strip basic markdown: **bold**, *italic*, `code`, __, _
+            preview=$(echo "$preview" | sed -E 's/\*\*([^*]+)\*\*/\1/g; s/\*([^*]+)\*/\1/g; s/`([^`]+)`/\1/g; s/__([^_]+)__/\1/g; s/_([^_]+)_/\1/g')
+
+            # Truncate to ~150 characters
+            preview=$(echo "$preview" | cut -c1-150)
             [ -z "$preview" ] && preview="No description available."
 
-            # Add article to the table
-            markdown="${markdown}<td width=\"50%\" valign=\"top\" style=\"padding: 10px;\"><a href=\"$link\"><strong>$title</strong></a><br/><span style='font-size: 12px;'>$preview</span></td>"
+            markdown="${markdown}<td width=\"50%\" valign=\"top\" style=\"padding: 10px;\"><a href=\"$link\"><strong>$title</strong></a><br/><span style='font-size: 11px; color: #555;'>$preview</span></td>"
             count=$((count + 1))
 
             if [ $((count % 2)) -eq 0 ]; then
@@ -90,4 +94,4 @@ jobs:
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🔄 Beautify article layout and trim previews"
+          commit_message: "🔄 Clean preview formatting and reduce font size"
