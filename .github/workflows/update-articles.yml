@@ -33,20 +33,34 @@ jobs:
           for file in $files; do
             title=$(head -n 1 "$file" | sed 's/^# //')
             link="https://github.com/bilelsalemdev/one-hundred-articles/blob/main/$file"
-            markdown="$markdown\n- [$title]($link)"
+            markdown="${markdown}- [${title}](${link})\\n"
           done
 
           cd ..
 
-          # Escape markdown for use in sed
-          escaped_markdown=$(printf "%s\n" "$markdown" | sed 's/[&/\]/\\&/g')
+          # Prepare new README content
+          awk -v content="$markdown" '
+            BEGIN { print_block=1 }
+            {
+              if ($0 ~ /<!-- BLOG-POST-LIST:START -->/) {
+                print $0
+                print_block=0
+                next
+              }
+              if (print_block) {
+                print $0
+              }
+              if ($0 ~ /<!-- BLOG-POST-LIST:END -->/) {
+                print content
+                print $0
+                print_block=1
+              }
+            }
+          ' README.md > README_temp.md
 
-          # Replace the BLOG-POST-LIST block
-          sed -i "/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/c\\
-<!-- BLOG-POST-LIST:START -->$escaped_markdown\\
-<!-- BLOG-POST-LIST:END -->" README.md
+          mv README_temp.md README.md
 
-          echo -e "✅ Generated Markdown:\n$markdown"
+          echo -e "✅ Injected Markdown:\n$markdown"
 
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
