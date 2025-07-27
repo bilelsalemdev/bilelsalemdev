@@ -26,24 +26,43 @@ jobs:
         run: |
           cd articles
 
-          # Find .md files sorted by modification time (latest first), limit to 5
-          readarray -d '' files < <(find . -maxdepth 1 -name "*.md" -print0 | xargs -0 stat --format '%Y %n' | sort -r | head -n 5 | cut -d' ' -f2- | tr '\n' '\0')
+          # Get latest 6 markdown files
+          readarray -d '' files < <(
+            find . -maxdepth 1 -name "*.md" -print0 | \
+            xargs -0 stat --format '%Y %n' | \
+            sort -r | \
+            head -n 6 | \
+            cut -d' ' -f2- | \
+            tr '\n' '\0'
+          )
 
-          markdown=""
+          # Build HTML table with two columns
+          markdown="<table><tr>"
+          count=0
+
           for file in "${files[@]}"; do
             clean_name="${file#./}"
             title="${clean_name%.md}"
 
-            # URL-encode the filename
+            # Encode the filename for GitHub link
             encoded_link=$(jq -rn --arg x "$clean_name" '$x|@uri')
             link="https://github.com/bilelsalemdev/one-hundred-articles/blob/main/$encoded_link"
 
-            markdown="${markdown}- [${title}](${link})\n"
+            # You can update the <p> to show actual descriptions later
+            markdown="${markdown}<td width=\"50%\" valign=\"top\"><strong><a href=\"$link\">$title</a></strong><br/><p>Brief description goes here.</p></td>"
+            count=$((count + 1))
+
+            # New row after every 2 articles
+            if [ $((count % 2)) -eq 0 ]; then
+              markdown="${markdown}</tr><tr>"
+            fi
           done
+
+          markdown="${markdown}</tr></table>"
 
           cd ..
 
-          # Update README.md between the markers
+          # Inject into README.md between BLOG-POST-LIST markers
           awk -v content="$markdown" '
             BEGIN { print_block=1 }
             {
@@ -70,4 +89,4 @@ jobs:
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🔄 Update latest blog posts with correct filenames"
+          commit_message: "🔄 Update latest blog posts (2-column table)"
