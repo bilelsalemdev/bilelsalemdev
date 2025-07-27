@@ -26,19 +26,22 @@ jobs:
         run: |
           cd articles
 
-          # Get 5 latest markdown files in root
+          # Get 5 latest markdown files
           files=$(ls -t *.md | head -n 5)
 
           markdown=""
           for file in $files; do
-            title=$(basename "$file" .md)
-            link="https://github.com/bilelsalemdev/one-hundred-articles/blob/main/$file"
+            # Extract full filename (including spaces, punctuation) without .md
+            title="${file%.md}"
+            # Encode URL for GitHub link
+            encoded_link=$(echo "$file" | jq -sRr @uri)
+            link="https://github.com/bilelsalemdev/one-hundred-articles/blob/main/$encoded_link"
             markdown="${markdown}- [${title}](${link})\\n"
           done
 
           cd ..
 
-          # Update README.md between the markers
+          # Inject new content in README
           awk -v content="$markdown" '
             BEGIN { print_block=1 }
             {
@@ -65,4 +68,4 @@ jobs:
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🔄 Update latest blog posts using filenames"
+          commit_message: "🔄 Update latest blog posts from filenames"
