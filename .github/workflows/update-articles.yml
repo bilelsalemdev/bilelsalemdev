@@ -26,7 +26,7 @@ jobs:
         run: |
           cd articles
 
-          # Get latest 6 markdown files
+          # Get latest 6 markdown files (by last modified date)
           readarray -d '' files < <(
             find . -maxdepth 1 -name "*.md" -print0 | \
             xargs -0 stat --format '%Y %n' | \
@@ -36,23 +36,22 @@ jobs:
             tr '\n' '\0'
           )
 
-          # Build HTML table with two columns
           markdown="<table><tr>"
           count=0
 
           for file in "${files[@]}"; do
             clean_name="${file#./}"
             title="${clean_name%.md}"
-
-            # Encode the filename for GitHub link
             encoded_link=$(jq -rn --arg x "$clean_name" '$x|@uri')
             link="https://github.com/bilelsalemdev/one-hundred-articles/blob/main/$encoded_link"
 
-            # You can update the <p> to show actual descriptions later
-            markdown="${markdown}<td width=\"50%\" valign=\"top\"><strong><a href=\"$link\">$title</a></strong><br/><p>Brief description goes here.</p></td>"
+            # Extract brief preview (first 2 non-empty lines excluding markdown headers)
+            preview=$(grep -vE '^\s*$|^#' "$file" | head -n 2 | tr -d '\r' | tr '\n' ' ')
+            preview="${preview:0:220}..."  # limit to 220 chars
+
+            markdown="${markdown}<td width=\"50%\" valign=\"top\"><strong><a href=\"$link\">$title</a></strong><br/><p>${preview}</p></td>"
             count=$((count + 1))
 
-            # New row after every 2 articles
             if [ $((count % 2)) -eq 0 ]; then
               markdown="${markdown}</tr><tr>"
             fi
@@ -62,7 +61,7 @@ jobs:
 
           cd ..
 
-          # Inject into README.md between BLOG-POST-LIST markers
+          # Inject into README.md between the markers
           awk -v content="$markdown" '
             BEGIN { print_block=1 }
             {
@@ -89,4 +88,4 @@ jobs:
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🔄 Update latest blog posts (2-column table)"
+          commit_message: "🔄 Update blog posts with titles and descriptions"
