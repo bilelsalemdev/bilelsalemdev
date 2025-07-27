@@ -26,7 +26,7 @@ jobs:
         run: |
           cd articles
 
-          # Get latest 6 markdown files (by last modified date)
+          # Get latest 6 markdown files
           readarray -d '' files < <(
             find . -maxdepth 1 -name "*.md" -print0 | \
             xargs -0 stat --format '%Y %n' | \
@@ -45,11 +45,13 @@ jobs:
             encoded_link=$(jq -rn --arg x "$clean_name" '$x|@uri')
             link="https://github.com/bilelsalemdev/one-hundred-articles/blob/main/$encoded_link"
 
-            # Extract brief preview (first 2 non-empty lines excluding markdown headers)
-            preview=$(grep -vE '^\s*$|^#' "$file" | head -n 2 | tr -d '\r' | tr '\n' ' ')
-            preview="${preview:0:220}..."  # limit to 220 chars
+            # Extract short 1-line preview
+            preview=$(grep -vE '^\s*$|^#' "$file" | head -n 1 | tr -d '\r' | tr '\n' ' ')
+            preview=$(echo "$preview" | cut -c1-100)
+            [ -z "$preview" ] && preview="No description available."
 
-            markdown="${markdown}<td width=\"50%\" valign=\"top\"><strong><a href=\"$link\">$title</a></strong><br/><p>${preview}</p></td>"
+            # Add article to the table
+            markdown="${markdown}<td width=\"50%\" valign=\"top\" style=\"padding: 10px;\"><a href=\"$link\"><strong>$title</strong></a><br/><span style='font-size: 12px;'>$preview</span></td>"
             count=$((count + 1))
 
             if [ $((count % 2)) -eq 0 ]; then
@@ -61,7 +63,7 @@ jobs:
 
           cd ..
 
-          # Inject into README.md between the markers
+          # Inject markdown into README.md
           awk -v content="$markdown" '
             BEGIN { print_block=1 }
             {
@@ -88,4 +90,4 @@ jobs:
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🔄 Update blog posts with titles and descriptions"
+          commit_message: "🔄 Beautify article layout and trim previews"
