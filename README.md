@@ -8,7 +8,7 @@
 
 ### 👨‍💻 About Me
 
-- 🔭 I’m currently working on a **Task Management Tool**
+- 🔭 I’m currently searching for a **new opportunity**
 - 🎯 Preparing for the **Associate Data Engineer in SQL Certificate**
 - ✍️ I write regularly on:
   - [Dev.to](https://dev.to/bilelsalemdev)
