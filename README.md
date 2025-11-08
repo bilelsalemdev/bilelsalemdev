@@ -9,12 +9,12 @@
 ### 👨‍💻 About Me
 
 - 🔭 I’m currently searching for a **new opportunity**
-- 🎯 Preparing for the **Associate Data Engineer in SQL Certificate**
+- 🎯 Practicing **Freelance**
 - ✍️ I write regularly on:
   - [Dev.to](https://dev.to/bilelsalemdev)
   - [Medium](https://medium.com/@bilelsalemdev)
 - 💬 Ask me about:
-  `React`, `Next.js`, `NestJS`, `Node.js`, `Express`, `Python`, `Data Engineering`
+  `React`, `Next.js`, `NestJS`, `Node.js`, `Express`, `Python`, `Storyblok`, `MongoDB`, `PostgreSQL`
 - 📫 Reach me at: **bilelsalemdev@gmail.com**
 
 ---
