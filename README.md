@@ -17,15 +17,6 @@
   `React`, `Next.js`, `NestJS`, `Node.js`, `Express`, `Python`, `Storyblok`, `MongoDB`, `PostgreSQL`
 - 📫 Reach me at: **bilelsalemdev@gmail.com**
 
----
-
-### 📈 Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bilelsalemdev&bg_color=1a1b27&color=9f9f9f&line=4c8eda&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" />
-</p>
-
----
 
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
@@ -50,15 +41,3 @@
 </p>
 
 ---
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bilelsalemdev&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bilelsalemdev&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-
----
-
-## Github Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=bilelsalemdev&theme=radical)](https://github.com/braiekhazem/github-profile-trophy)
