@@ -9,7 +9,6 @@
 ### 👨‍💻 About Me
 
 - 🔭 I’m currently searching for a **new opportunity**
-- 🎯 Practicing **Freelance**
 - ✍️ I write regularly on:
   - [Dev.to](https://dev.to/bilelsalemdev)
   - [Medium](https://medium.com/@bilelsalemdev)
